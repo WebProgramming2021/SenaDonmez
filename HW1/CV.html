@@ -4,70 +4,83 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CV</title>
-	<link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
-<body>
+<body style="background-color:#7e7e80;">
 
-<div id="wrapper">
+  <div style="width: auto; height: auto; background-color: ebeae6;">
     <!-- Sidebar -->
-   <div id="sidebar">
-         <ul>
-           <li>
-             <div class="icon">
-               <i class="fas fa-map-signs"></i>
-             </div>
-             <div class="data">
-               Selçuklu KONYA <br /> TURKEY
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-mobile-alt"></i>
-             </div>
-             <div class="data">
-               545 252 84 77
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-envelope"></i>
-             </div>
-             <div class="data">
-               donmzsena@gmail.com
-             </div>
-           </li>
-         </ul>
+    
+    <div style="float:left; width: 25%; height: auto;color: rgba(255, 255, 240, 0.89);margin-top: 20px;margin-left: 10px;">
+      <div class="left-side">
+        <br><br>
+        <img src="cv_photo.jpg" width="40%" height="auto" class="center" >
+        <br>
+    <h2 style="color: ivory;font-size: 1.3em;text-align: center;">Sena DÖNMEZ</h2>
+    
+    
+         <ul><br>
+          
+          <div style="text-align: center;">
+            <h>
+              13.08.1998
+            </h>
+          </div><br>
+          
+            
+         
+            <div style="text-align: center;">
+              <i class="fas fa-mobile-alt"></i><br>
+             <h>+90(545) 252 84 77</h>
+            </div><br>
+            
+              
+            
+            <div style="text-align: center;">
+              <i class="fas fa-envelope"></i><br>
+            <a href="donmzsena@gmail.com" style="color: ivory;">donmzsena@gmail.com</a>
+          </div> <br>
+          
+            
+          
+          <div style="text-align: center;"> 
+            <i class="fas fa-map-signs"></i> <br> 
+              <h>
+                Selçuklu / KONYA</h>               
+            </div> <br>
+            <div style="text-align: center;"> 
+            <h >TURKEY</h>
+        </ul>
        </div>
-       
+      </div>
      
 
-  <div id="page-content-wrapper">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <a href="#" class="btn btn-success" id="profile-toggle">Profile</a>
-            
+        
+       <div style="float:right; width: 73%;">       
     
-    <div class="work">
+    <div class="work" >
         <div class="title">
-           <p class="bold">Work Experience</p>
+           <p class="bold" style="margin-left: 20px;">Work Experience</p>
          </div>
-        <ul>
+        <ul style="margin-left: 20px;">
             <li>
                 <div class="date">2020 August - 2020 October</div> 
                 <div class="info">
                      <p class="semi-bold">Internship</p> 
                   <p>Anadolu Birlik Holding</p>
                   <p>IT Department</p>
+                  
                 </div>
             </li>
         </ul>
     </div>
+    
     <div class="education">
       <div class="title">
-           <p class="bold">Education</p>
+           <p class="bold" style="margin-left: 20px;">Education</p>
          </div>
-      <ul>
+      <ul style="margin-left: 20px;">
             <li>
                 <div class="date">2017 - Present</div> 
                 <div class="info">
@@ -85,9 +98,9 @@
     </div>
     <div class="skills">
         <div class="title">
-          <p class="bold">SKILLS</p>
+          <p class="bold"style="margin-left: 20px;">Skills</p>
         </div>
-        <ul>
+        <ul style="margin-left: 20px;" class="info">
           <li>
                JAVA
           </li>
@@ -110,22 +123,23 @@
       </div>
       <div class="languages">
         <div class="title">
-           <p class="bold">Languages</p>
+           <p class="bold"style="margin-left: 20px;">Languages</p>
+           <div>
+             <ul style="margin-left: 20px;" class="info">
            <li>
             English
             (B2 Level)
         </li>
-
+      </ul>
          </div>
-        <p>
-
-        </p>
+        
+    </div>
     </div>
     <div class="hobby">
       <div class="title">
-           <p class="bold">Hobbies</p>
+           <p class="bold" style="margin-left: 20px;">Hobbies</p>
          </div>
-       <ul>
+       <ul style="margin-left: 20px;" class="info">
          <li>
              Cinema
          </li>
@@ -138,18 +152,8 @@
       </ul>
     </div>
   </div>
-</div>
-</div>
-</div>
 
 </div>
-
-<!-- Profile Toggle Script-->
-<script>
-    $("#profile-toggle").click(function (e){
-        e.preventDefault();
-        $("#wrapper").toggleClass("toogled");
-    });
-</script>
+<div style="clear:both"></div>
 </body>
 </html>
