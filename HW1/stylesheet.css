@@ -1,0 +1,62 @@
+.work{
+    background-color: #f2dbde;
+    margin-top: 20px;
+    width: 800px;
+}
+
+.education{
+    background-color: #ebeae6;
+    width: 800px;
+}
+
+.skills{
+    background-color: #f2dbde;
+    margin-top: 0;
+    width: 800px;
+}
+
+.languages{
+    background-color: #ebeae6;
+    width: 800px;
+}
+
+.hobby{
+    background-color: #f2dbde;
+    width: 800px;
+}
+
+.left-side{
+    background-color: #3f4044;
+    height: 747px;
+    width: auto;
+    font-size: auto;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    
+}
+
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bold{
+    
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.info{
+    font-style: normal;
+    font-family: sans-serif;
+    
+}
+.date{
+    font-weight: bolder;
+    color: rgb(128, 126, 126);
+    font-style: oblique;
+    font-family: sans-serif;
+}
